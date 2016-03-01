@@ -8,7 +8,8 @@ def index(request):
     # return HttpResponse('Hello from Python!')
     return render(request, 'index.html')
 
-
+def myverb(request):
+    return HttpResponse("No matter how subtle the wizard...")
 def db(request):
 
     greeting = Greeting()
